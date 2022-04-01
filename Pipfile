@@ -4,13 +4,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-pyyaml = "*"
+pyyaml = "==6.0"
 
 [dev-packages]
-black = "*"
-flake8 = "*"
-mypy = "*"
-pyinstaller = "*"
+black = "==22.3.0"
+flake8 = "==4.0.1"
+mypy = "==0.942"
+pyinstaller = "==4.10"
 
 [requires]
 python_version = "3.9"
