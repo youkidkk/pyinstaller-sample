@@ -2,6 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: pyinstaller_sample.py",
+      "type": "python",
+      "request": "launch",
+      "program": "src/pyinstaller_sample.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
       "name": "Python: Current File",
       "type": "python",
       "request": "launch",
