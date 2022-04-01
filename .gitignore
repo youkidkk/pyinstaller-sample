@@ -1,6 +1,5 @@
 /.venv
 /.mypy_cache
-/Pipfile.lock
 /tmp/**
 /logs/**
 /**/__pycache__
