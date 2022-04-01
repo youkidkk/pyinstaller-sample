@@ -6,7 +6,13 @@
       "label": "build",
       "type": "shell",
       "command": "pipenv",
-      "args": ["run", "pyinstaller", "src/pyinstaller_sample.py", "--onefile"]
+      "args": [
+        "run",
+        "pyinstaller",
+        "src/pyinstaller_sample.py",
+        "--onefile",
+        "--clean"
+      ]
     }
   ]
 }
