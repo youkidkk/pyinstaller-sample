@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "group": "build",
+      "label": "build",
+      "type": "shell",
+      "command": "pipenv",
+      "args": ["run", "pyinstaller", "src/pyinstaller_sample.py", "--onefile"]
+    }
+  ]
+}
