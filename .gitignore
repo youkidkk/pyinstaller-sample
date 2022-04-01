@@ -2,6 +2,11 @@
 /.mypy_cache
 /Pipfile.lock
 /tmp/**
+/logs/**
 /**/__pycache__
 /**/.ropeproject
 !.gitkeep
+
+/build
+/dist
+/pyinstaller_sample.spec
