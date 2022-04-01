@@ -20,7 +20,7 @@ pipenv run pyinstaller src/pyinstaller_sample.py --onefile --clean
 
 以下のフォルダ、ファイル構成で配置し、exe ファイルを実行
 
-- pyinstaller_sampleexe.
+- pyinstaller_sample.exe
 - configs
   - log_conf.yml
 - logs
